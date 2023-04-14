@@ -1,17 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Footer from '../components/Footer.astro';
-import Ics from '../components/Ics.vue';
+
+// const dataFromFetch = await fetch('https://info.kalendarium.pro', {mode: 'no-cors'}).then(r => r.text());
+
 ---
 
-<Layout title="Welcome to .ics Generator">
+<Layout title="Welcome to Fetch.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">.ics Generator</span></h1>
+		<h1>Welcome to <span class="text-gradient">About</span></h1>
 		<p class="instructions">
-			Experience the ease of our user-friendly iCalendar invitation generator. Quickly generate, download, and attach custom invitations to your emails. Rest assured with our commitment to full privacy - no data is stored on the servers. The magic happen in your browser.
+			This tool was made in cooperation with ChatGPT <code>chat.openai.com</code> just to try out Astro js framework.<br />
+			<strong>Quote for you:</strong> Just be nice to others without any particular rason...
 		</p>
-    <Ics client:idle/>
-		<!-- <Footer /> -->
+		<div>
+			<!-- {dataFromFetch} -->
+		</div>
 	</main>
 </Layout>
 
@@ -19,7 +22,7 @@ import Ics from '../components/Ics.vue';
 	main {
 		margin: auto;
 		padding: 1.5rem;
-		max-width: 80ch;
+		max-width: 60ch;
 	}
 	h1 {
 		font-size: 3rem;

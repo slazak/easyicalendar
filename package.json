@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.2.3"
+    "@astrojs/vue": "^2.1.1",
+    "astro": "^2.2.3",
+    "astro-seo": "^0.7.2",
+    "vue": "^3.2.47"
   }
 }
