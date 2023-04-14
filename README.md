@@ -2,4 +2,4 @@
 
 ## 👀 Where is the tool available?
 
-Please follow this [link](https://easyicallendar.coms)
+Please follow this [link](https://easyicallendar.com)
